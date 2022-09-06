@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
   p{
     color: green;
     font-size: 50px;
+    padding:20px;
+    border: 2px solid green;
+    background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
 
   }`]
 })
