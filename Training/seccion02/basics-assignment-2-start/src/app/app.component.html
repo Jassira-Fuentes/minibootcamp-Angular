@@ -1,0 +1,23 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+
+      <label>Username</label>
+      <input 
+      type="text"
+      class="form-control"
+      [(ngModel)]="username">
+
+      
+      <button 
+      class="btn btn-danger"
+      [disabled]="username === ''"
+      (click)="username =''">
+      Save User
+      </button>
+
+      <p>{{ username }}</p>
+
+    </div>
+  </div>
+</div>
